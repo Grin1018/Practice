@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  padding: 30px 20px;
+  background-color: #ff14d8;
+  justify-content:flex-end;
+}
+
+header > .box-item{
+  height: 70px;
+  flex-basis:140px;
+  margin: 0 10px;
+  background-color: #ff99ee;
+}
+
+header > :first-chila{
+  margin-right: auto;
+}
